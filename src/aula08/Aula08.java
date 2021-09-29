@@ -1,7 +1,7 @@
-package aula07;
+package aula08;
 
 // ULTRA EMOJI COMBAT
-public class Aula07 {
+public class Aula08 {
     public void pratica() {
         Lutador lutador[] = new Lutador[6];
 
@@ -71,7 +71,11 @@ public class Aula07 {
                 4
         );
 
-        lutador[3].ganharLuta();
-        lutador[3].status();
+        Luta uec01 = new Luta();
+        uec01.marcarLuta(lutador[0], lutador[1]);
+        uec01.lutar();
+
+        lutador[0].status();
+        lutador[1].status();
     }
 }
