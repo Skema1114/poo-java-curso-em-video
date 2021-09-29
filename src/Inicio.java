@@ -7,6 +7,7 @@ import aula07.Aula07;
 import aula08.Aula08;
 import aula09.Aula09;
 import aula10.Aula10;
+import aula11.Aula11;
 
 public class Inicio {
     public static void main(String[] args) {
@@ -35,6 +36,9 @@ public class Inicio {
         // aula09.pratica();
 
         Aula10 aula10 = new Aula10();
-        aula10.pratica();
+        // aula10.pratica();
+
+        Aula11 aula11 = new Aula11();
+        aula11.pratica();
     }
 }
