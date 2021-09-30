@@ -15,6 +15,8 @@ import aula15.Aula15;
 
 public class Inicio {
     public static void main(String[] args) {
+        // DESCOMENTAR A AULA PARA EXECUTAR OS ARQUIVOS
+
         Aula02 aula02 = new Aula02();
         // aula02.pratica();
 
@@ -55,6 +57,6 @@ public class Inicio {
         // aula14.pratica();
 
         Aula15 aula15 = new Aula15();
-        aula15.pratica();
+        // aula15.pratica();
     }
 }
